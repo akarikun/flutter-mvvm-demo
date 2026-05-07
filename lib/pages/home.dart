@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flweb/vm/home.dart';
-import 'package:flweb/widgets/confirm.dart';
 import 'package:provider/provider.dart';
+import '../vm/home.dart';
+import '../widgets/confirm.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key, required this.title});

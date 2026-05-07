@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flweb/pages/home.dart';
-import 'package:flweb/services/auth.dart';
-import 'package:flweb/vm/home.dart';
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-
+import '../pages/home.dart';
+import '../services/auth.dart';
+import '../vm/home.dart';
 import '../pages/login.dart';
 import '../vm/auth.dart';
 import '../vm/login.dart';

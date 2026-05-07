@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:flweb/services/auth.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import '../services/auth.dart';
 
 class LoginViewModel extends ChangeNotifier {
   final AuthService _authService;
